@@ -3,7 +3,10 @@ counter = 0
 def using_times
 	loop do
 	  counter =+ 1
-	  7.times puts "Wingardium Leviosa"
+	  puts "Wingardium Leviosa"
+	  if counter >= 7
+	    break
+	  end 
 end
 
 
