@@ -5,7 +5,7 @@ def using_times
 	loop do
 	  counter =+ 1
 	  print "Wingardium Leviosa"
-	  if counter < = 7
+	  if counter <= 7
 	    break
 	  end 
 	end
