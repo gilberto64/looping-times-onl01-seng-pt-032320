@@ -7,6 +7,7 @@ def using_times
 	  if counter >= 7
 	    break
 	  end 
+	end
 end
 
 
